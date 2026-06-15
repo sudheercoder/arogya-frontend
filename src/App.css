@@ -1,0 +1,15 @@
+.active hr {
+	@apply block;
+}
+
+::-webkit-scrollbar {
+	@apply hidden
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Outfit:wght@100..900&family=Poppins:ital,wght@1,500&display=swap');
+
+* {
+	font-family: Outfit;
+}
+
+ 
