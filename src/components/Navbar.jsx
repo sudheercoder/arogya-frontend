@@ -4,7 +4,7 @@ import { NavLink, useNavigate } from 'react-router-dom';
 import Swal from 'sweetalert2';
 import { Appcontext } from '../context/Appcontext';
 
-export default function Navbar() {}
+export default function Navbar() {
 	const navigate = useNavigate();
 	const [showMenu, setShowMenu] = useState(false);
 	const { token, setToken } = useContext(Appcontext);
