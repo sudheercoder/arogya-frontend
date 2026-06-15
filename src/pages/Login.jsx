@@ -2,7 +2,7 @@ import React, { useContext, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import axios from 'axios'
 import { toast } from 'react-toastify'
-import { Appcontext } from '../context/AppContext'
+import { Appcontext } from '../context/Appcontext'
 
 export default function Login() {
 	const navigate = useNavigate();
