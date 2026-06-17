@@ -4,16 +4,16 @@ import { assets } from '../assets/assets'
 export default function Profile() {
 
 	const [userData, setUserData] = useState({
-		name: "Mayank Pandey",
+		name: "Sudheer Pal",
 		image: assets.profile_pic,
-		email: "mp04042007@gmail.com",
-		phone: "+91 9341283363",
+		email: "sudheerpal402@gmail.com",
+		phone: "+91 9720535155",
 		address: {
-			line1: "Ailay patnva kaimur bhabhua bihar",
-			line2: "indu nursing saboli aliganj lucknow",
+			line1: "Ram Ram bank, Aliganj",
+			line2: " lucknow UP.",
 		},
 		gender: "Male",
-		dob: "2004-23-06"
+		dob: "2002-09-29"
 	})
 
 	const [isEdit, setIsEdit] = useState(false);
